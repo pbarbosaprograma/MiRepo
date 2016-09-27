@@ -1,5 +1,11 @@
 #include <stdio.h>
+void mensajeBienvenida()
+{ 
+printf("Bienvenidos");
+}
 void main()
-{  printf("hola");
-return 0;
+{  
+	mensajeBienvenida();
+	printf("hola");
+	return ;
 }
